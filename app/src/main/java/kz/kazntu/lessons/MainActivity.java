@@ -34,6 +34,11 @@ public class MainActivity extends AppCompatActivity {
         countries.add("United States of America");
         countries.add("Germany");
         countries.add("Kazakhstan");
+        countries.add("Uzbekistan") ;
+        countries.add("Kyrgyzstan") ;
+        countries.add("Turkmenistan");
+        countries.add("Azerbaidjan") ;
+        countries.add("Turkye");
         RecyclerView.Adapter adapter = new DataAdapter(countries);
         recyclerView.setAdapter(adapter);
 
